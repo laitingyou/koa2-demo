@@ -1,0 +1,29 @@
+{
+  "name": "koa2-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/run.js"
+  },
+  "author": "laitingyou@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-ratelimit": "^4.1.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-static-cache": "^5.1.2",
+    "koa-views": "^6.1.4",
+    "koa2": "^2.0.0-alpha.7",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "node-env-file": "^0.1.8",
+    "nodemon": "^1.18.4",
+    "ratelimiter": "^3.2.0",
+    "sequelize": "^4.39.0"
+  }
+}
