@@ -7,6 +7,7 @@ const path = require('path')
 const views = require('koa-views')
 const helmet = require("koa-helmet")
 
+
 let {
 	STATIC_PATH
 } = process.env
@@ -24,6 +25,7 @@ app.use(bodyParser())
 app.use(static(path.join( __dirname,  STATIC_PATH)))
 
 app.use(router.routes(),router.allowedMethods())
+
 
 
 module.exports = app 

@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/run.js"
+    "start": "nodemon ./bin/run.js",
+    "sequelize": "sequelize"
   },
   "author": "laitingyou@outlook.com",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-helmet": "^4.0.0",
     "koa-ratelimit": "^4.1.2",
+    "koa-redis": "^3.1.2",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-static-cache": "^5.1.2",
@@ -24,6 +26,8 @@
     "node-env-file": "^0.1.8",
     "nodemon": "^1.18.4",
     "ratelimiter": "^3.2.0",
-    "sequelize": "^4.39.0"
+    "redis": "^2.8.0",
+    "sequelize": "^4.39.0",
+    "sequelize-cli": "^5.1.0"
   }
 }
