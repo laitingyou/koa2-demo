@@ -1,5 +1,10 @@
-const {db} = require('../../utils/mysql')
-exports.find = async function(uid = '*'){
-	let res =  await db.query(`select ${uid} from user`)
+const User = require('../../database/users')
+
+exports.find = async function(ctx){
+	let res =  await User.findAll({
+    where: {
+
+    }
+	})
 	return res
 }
