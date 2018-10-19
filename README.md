@@ -5,7 +5,7 @@
 npm install
 npm start
 ```
-##目录机构
+## 目录机构
 ```
   '    |-- .env',
   '    |-- .gitignore',
