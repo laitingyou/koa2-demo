@@ -5,5 +5,4 @@ const {
 	PORT
 } = process.env
 
-
-app.listen(PORT) 
+app.listen(PORT)
