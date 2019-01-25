@@ -1,5 +1,8 @@
-const {db} = require('../../utils/mysql')
-exports.find = async function(uid = '*'){
-	let res =  await db.query(`select ${uid} from user`)
-	return res
+let db = require('../../utils/mysql')
+exports.find = function(uid = '*'){
+  return new Promise((resolve)=>{
+    db.get('name',function (err, value) {
+      resolve(value)
+    })
+  })
 }

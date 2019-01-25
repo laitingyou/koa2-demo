@@ -26,6 +26,9 @@
     "node-env-file": "^0.1.8",
     "nodemon": "^1.18.4",
     "ratelimiter": "^3.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-uwp": "^1.2.31",
     "redis": "^2.8.0",
     "sequelize": "^4.39.0",
     "sequelize-cli": "^5.1.0"

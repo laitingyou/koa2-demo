@@ -11,11 +11,11 @@ const helmet = require("koa-helmet")
 let {
 	STATIC_PATH
 } = process.env
-app.use(
-	views(path.join(__dirname, './resource/views'), {
-  		extension: 'ejs'
-	})
-)
+// app.use(
+// 	views(path.join(__dirname, './resource/views'), {
+//   		extension: 'ejs'
+// 	})
+// )
 
 app.use(helmet())
 
