@@ -1,0 +1,43 @@
+$content: 80%;
+.logo{
+  font-size: 23px;
+}
+.logoBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.search{
+  width: 200px !important;
+}
+.layout{
+  margin: 0;
+  padding: 0;
+  header{
+    height: 60px;
+    width: $content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer{
+    height: 100px;
+    width: $content;
+    margin: 0 auto;
+  }
+  section{
+    //padding:0 30px;
+    display: flex;
+    height: calc(100vh - 160px);
+    background-image: url("https://www.react-uwp.com/HEAD/static/images/dark-40.1vqE3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+
+  }
+}
+.content{
+  width: 100%;
+}
